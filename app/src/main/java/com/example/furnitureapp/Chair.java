@@ -101,7 +101,7 @@ public class Chair extends AppCompatActivity {
         Vector3 v1=b.getSize();
 
         Toast.makeText(getApplicationContext(),v1.toString(),Toast.LENGTH_LONG).show();
-
+        
     }
 
     public void delete_ar(View view) {
