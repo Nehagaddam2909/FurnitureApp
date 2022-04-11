@@ -99,6 +99,7 @@ public class Chair extends AppCompatActivity {
         //  TransformableNode t=(TransformableNode) a.getChildren();;
         Box b=(Box) t.getRenderable().getCollisionShape();
         Vector3 v1=b.getSize();
+
         Toast.makeText(getApplicationContext(),v1.toString(),Toast.LENGTH_LONG).show();
 
     }
